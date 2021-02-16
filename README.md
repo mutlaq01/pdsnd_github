@@ -2,11 +2,9 @@
 This project was created on 2/16/2021
 
 ### Project Title
-Replace the Project Title
-
+Posting Work on GitHub
 ### Description
-Describe what your project is about and what it does
-
+I will be posting my bikeshare project, a python project I worked on, on a remote repo on GitHub 
 ### Files used
 Include the files used
 
