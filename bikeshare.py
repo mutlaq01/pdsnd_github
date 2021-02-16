@@ -29,7 +29,7 @@ def get_filters(city, month, day):
             break
     # TO DO: get user input for month (all, january, february, ... , june)
     while True:
-        time = input("Do you want to filter by month, day, all or none. \n").lower().strip()
+        time = input("You have 4 options: Do you want to filter by month, day, all or none. \n").lower().strip()
         if time == 'month':
             while True:
                 month = input("Which month? January, Feburary, March, April, May or June. \n").lower().strip()
