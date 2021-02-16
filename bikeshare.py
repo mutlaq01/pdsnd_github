@@ -226,7 +226,7 @@ def rdata(df):
     while True:
         answer = input("Do you want to see new/more raw data? Enter Yes or No. \n").lower().strip()
         if answer not in ['yes', 'no']:
-            answer = input("You wrote the wrong word. Please type Yes or No. \n").lower().strip()
+            answer = input("Invalid answer. Please type Yes or No. \n").lower().strip()
         elif answer == 'yes':
             raw_data += 5
             print(df.iloc[raw_data : raw_data + 5])
